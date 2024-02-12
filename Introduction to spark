@@ -1,0 +1,27 @@
+Q. What is apache spark?
+
+Apache spark is :-
+1. General purpose
+2. In memory
+3. Compute engine
+
+Q. What hadoop provides?
+
+Hadoop provides :- 
+1. Storage - HDFS
+2. Computing - MapReduce
+3. Resource Manager - YARN
+
+Spark in only alternative or replacement of MapRduce and not replacement for hole Hadoop.
+
+Spark is a plug and play compute engine which needs 2 things to work
+1. Storage - (Any - HDFS, AWS S3, Azure blob, Azure ADLS Gen2, GCP cloud)
+2. Resource Manager - (Any - YARN, Apache Mesos, Kubernetes)
+
+Current industry trend - HDFS, Spark, YARN
+
+Q. What is in-memory?
+
+It takes input once and compute that input internally in memory and final output print it to the disk. So in the in-memory we have single read and write.
+
+In MapReduce we encounter with disk read and write many times. Due to frequent read and writes to the disk MR is 10 to 100X slower than Spark.
